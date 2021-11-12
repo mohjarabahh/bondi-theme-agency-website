@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Bondi Theme</title>
+
+        <!-- Favicon -->
+        <link rel='shortcut icon' href='./Images/logo.ico' type='image/x-icon'>
+
+        <!-- Meta -->
+        <meta charset='UTF-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <meta name='description' content='We make awesome graphic and web design.'>
+
+        <!-- Google Fonts -->
+        <link rel='preconnect' href='https://fonts.googleapis.com'>
+        <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'>
+
+        <!-- CSS -->
+        <!-- Main Template CSS Files -->
+        <link rel='stylesheet' href='./CSS/master.prefixed.css'> 
+
+        <!-- Normalize CSS -->
+        <link rel='stylesheet' href='./CSS/normalize.css'>
+
+        <!-- Font Awesome Library -->
+        <link rel='stylesheet' href='./CSS/all.min.css'>
+    </head>
+    <body id=body>
+        <!-- Navigation Bar - Beginning -->
+        <div class='navbar'>
+            <div class='navbar__container container'>
+                <!-- Logo -->
+                <a href='#body' class='navbar__logo'>
+                    <img src='./Images/logo.svg' alt='Website Logo' class='navbar__logoImg'>
+                </a>
+                <!-- Content -->
+                <div class='navbar__content'>
+                    <!-- Menu Icon -->
+                    <i class='fas fa-bars navbar__menuIcon'></i>
+                    <!-- Content Box -->
+                    <div class='navbar__contentBox'>
+                        <!-- Links -->
+                        <div class='navbar__links'>
+                            <div class='navbar__linkBox'><a href='#body' class='navbar__link'>Home</a></div>
+                            <div class='navbar__linkBox'><a href='#servicesSection' class='navbar__link'>Services</a></div>
+                            <div class='navbar__linkBox'><a href='#portfolioSection' class='navbar__link'>Portfolio</a></div>
+                            <div class='navbar__linkBox'><a href='#aboutSection' class='navbar__link'>About</a></div>
+                            <div class='navbar__linkBox'><a href='#contactSection' class='navbar__link'>Contact</a></div>
+                        </div>
+                        <!-- Separator -->
+                        <span class='navbar__separator'></span>
+                        <!-- Search Link -->
+                        <a href='#emptyLink' class='navbar__searchLink'><i class='fas fa-search navbar__searchLinkIcon'></i></a>
+                        <!-- Login Link -->
+                        <div class='navbar__loginLinkBox'><a href='#emptyLink' class='navbar__loginLink'>Login</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navigation Bar - Ending -->
+        
+        <!-- Header Section - Beginning -->
+        <div class='header'>
+            <div class='header__container container'>
+                <!-- == Header Content == -->
+                <div class='header__content'>
+                    <p class='header__mainTitle'>Taste the Creativity</p>
+                    <p class='header__subTitle'>We make awesome graphic and web design</p>
+                    <a href='#emptyLink' class='sepcialLink'>Get Started</a>
+                </div>
+            </div>
+        </div>
+        <!-- Header Section - Ending -->
+
+        <!-- Services Section - Beginning -->
+        <div class='services' id='servicesSection'>
+            <div class='services__container container'>
+                <!-- Special Heading -->
+                <div class='specialHeading'>
+                    <img src='./Images/sepcial-logo.svg' alt='Special Logo' class='specialHeading__img'>
+                    <p class='specialHeading__mainTitle'>We are Good at</p>
+                    <p class='specialHeading__subTitle'>SOME OF THEASE STUFF UNDER</p>
+                </div>
+                <!-- Services -->
+                <div class='services__services'>
+                    <!-- Service 1 -->
+                    <div class='services__serve'>
+                        <div class='services__serveLogo'>
+                            <img src='./Images/num1.svg' alt='Service Number' class='services__serveNumber'>
+                            <img src='./Images/pen.svg' alt='Service Icon' class='services__serveIcon'>
+                        </div>
+                        <p class='services__serveTitle'>GRAPHIC DESIGN</p>
+                        <p class='services__serveDesc'>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                    </div>
+                    
+                    <!-- Service 2 -->
+                    <div class='services__serve'>
+                        <div class='services__serveLogo'>
+                            <img src='./Images/num2.svg' alt='Service Number' class='services__serveNumber'>
+                            <img src='./Images/screen.svg' alt='Service Icon' class='services__serveIcon'>
+                        </div>
+                        <p class='services__serveTitle'>WEB DESIGN</p>
+                        <p class='services__serveDesc'>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                    </div>
+                    
+                    <!-- Service 3 -->
+                    <div class='services__serve'>
+                        <div class='services__serveLogo'>
+                            <img src='./Images/num3.svg' alt='Service Number' class='services__serveNumber'>
+                            <img src='./Images/power.svg' alt='Service Icon' class='services__serveIcon'>
+                        </div>
+                        <p class='services__serveTitle'>APP DESIGN</p>
+                        <p class='services__serveDesc'>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services Section - Ending -->
+
+        <!-- Portfolio Section - Beginning -->
+        <div class='portfolio' id='portfolioSection'>
+            <div class='portfolio__container container'>
+                <!-- Special Heading -->
+                <div class='specialHeading'>
+                    <img src='./Images/sepcial-logo.svg' alt='Special Logo' class='specialHeading__img'>
+                    <p class='specialHeading__mainTitle'>We Make This</p>
+                    <p class='specialHeading__subTitle'>PREPARE TO BE AMAZED</p>
+                </div>
+
+                <!-- Content -->
+                <div class='portfolio__content'>
+                    <div class='portfolio__filters'>
+                        <button class='portfolio__filter portfolio__filter--selected'>All</button>
+                        <button class='portfolio__filter'>Design</button>
+                        <button class='portfolio__filter'>Code</button>
+                        <button class='portfolio__filter'>Photography</button>
+                        <button class='portfolio__filter'>Apps</button>
+                    </div>
+                    <div class='portfolio__photos'>
+                        <div class='portfolio__photoBox'>
+                            <div class='portfolio__photoBoxOverly'>
+                                Awesome Work
+                                <br>
+                                <span class='portfolio__photoBoxOverlySpan'>/All</span>
+                            </div>
+                            <span class='portfolio__photo'></span>
+                        </div>
+                        <div class='portfolio__photoBox'><span class='portfolio__photo'></span></div>
+                        <div class='portfolio__photoBox'><span class='portfolio__photo'></span></div>
+                        <div class='portfolio__photoBox'><span class='portfolio__photo'></span></div>
+                        <div class='portfolio__photoBox'><span class='portfolio__photo'></span></div>
+                        <div class='portfolio__photoBox'><span class='portfolio__photo'></span></div>
+                        <div class='portfolio__photoBox'><span class='portfolio__photo'></span></div>
+                        <div class='portfolio__photoBox'><span class='portfolio__photo'></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Section - Ending -->
+
+        <!-- About Us Section - Beginning -->
+        <div class='aboutUs' id='aboutSection'>
+            <div class='aboutUs__container container'>
+                <!-- Special Heading -->
+                <div class='specialHeading'>
+                    <img src='./Images/sepcial-logo.svg' alt='Special Logo' class='specialHeading__img'>
+                    <p class='specialHeading__mainTitle'>Some Stuff About Us</p>
+                    <p class='specialHeading__subTitle'>THE GREAT TEAM</p>
+                </div>
+                <!-- Description -->
+                <p class='aboutUs__desc'>Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+                <!-- Content -->
+                <div class='aboutUs__content'>
+                    <!-- AD -->
+                    <div class='aboutUs__ad'>
+                        <h2 class='aboutUs__adTitle'>Retina Design</h2>
+                        <p class='aboutUs__adDesc'>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar.<br><br>Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+                        <a href='#emptyLink' class='aboutUs__adLink sepcialLink'>OREDER ME ONE</a>
+                    </div>
+                    <!-- iMac Screen -->
+                    <img src='./Images/imac-image.png' alt='iMac Screen' class='aboutUs__imacScreen'>
+                </div>
+            </div>
+        </div>
+        <!-- About Us Section - Ending -->
+
+        <!-- Team Section - Beginning -->
+        <div class='team'>
+            <div class='team__container container'>
+                <h2 class='team__title'>Meet the Team</h2>
+                <p class='team__desc'>Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+                <div class='team__members'>
+                    <!-- Member 1 -->
+                    <div class='team__member'>
+                        <span class='team__memberImg'></span>
+                        <h3 class='team__memberName'>Mohammad Ali</h3>
+                        <p class='team__memberDesc'>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, magni.”</p>
+                    </div>
+                    
+                    <!-- Member 2 -->
+                    <div class='team__member'>
+                        <span class='team__memberImg'></span>
+                        <h3 class='team__memberName'>Omar Abdullah</h3>
+                        <p class='team__memberDesc'>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, magni.”</p>
+                    </div>
+                    
+                    <!-- Member 3 -->
+                    <div class='team__member'>
+                        <span class='team__memberImg'></span>
+                        <h3 class='team__memberName'>Mohanad Sameer</h3>
+                        <p class='team__memberDesc'>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, magni.”</p>
+                    </div>
+                    
+                    <!-- Member 4 -->
+                    <div class='team__member'>
+                        <span class='team__memberImg'></span>
+                        <h3 class='team__memberName'>Jehad Sami</h3>
+                        <p class='team__memberDesc'>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, magni.”</p>
+                    </div>
+                </div>
+                <p class='team__note'><strong>Note:</strong> This template is for practicing, so the team members' photo are not real, it's just for filling the members' cards. The images are from <a href='https://unsplash.com' target='_blank' class='team__noteLink'>Unsplash</a>.
+                </p>
+            </div>
+        </div>
+        <!-- Team Section - Ending -->
+
+        <!-- Clients Section - Beginning -->
+        <div class='clients'>
+            <div class='clients__container container'>
+                <div class='clients__brands'>
+                    <img src='./Images/brand-logo1.png' alt='Brand Logo' class='clients__brandLogo'>
+                    <img src='./Images/brand-logo2.png' alt='Brand Logo' class='clients__brandLogo'>
+                    <img src='./Images/brand-logo3.png' alt='Brand Logo' class='clients__brandLogo'>
+                    <img src='./Images/brand-logo1.png' alt='Brand Logo' class='clients__brandLogo'>
+                    <img src='./Images/brand-logo2.png' alt='Brand Logo' class='clients__brandLogo'>
+                    <img src='./Images/brand-logo3.png' alt='Brand Logo' class='clients__brandLogo'>
+                </div>
+            </div>
+        </div>
+        <!-- Clients Section - Ending -->
+
+        <!-- Advertise Section - Beginning -->
+        <div class='advertise'>
+            <div class='advertise__container container'>
+                <h2 class='advertise__title'>Start Your Project Now</h2>
+                <p class='advertise__desc'>Leave your description and we start the engine. Don't worry, you can cancel anytime.</p>
+                <a href='#emptyLink' class='advertise__link sepcialLink'>START PROJECT</a>
+            </div>
+        </div>
+        <!-- Advertise Section - Ending -->
+
+        <!-- Blog Section - Beginning -->
+        <div class='blog' id='blogSection'>
+            <div class='blog__container container'>
+                <!-- Special Heading -->
+                <div class='specialHeading'>
+                    <img src='./Images/sepcial-logo.svg' alt='Special Logo' class='specialHeading__img'>
+                    <p class='specialHeading__mainTitle'>Read Our Blog</p>
+                    <p class='specialHeading__subTitle'>NEW STORIES</p>
+                </div>
+                <!-- Blogs -->
+                <div class='blog__blogs'>
+                    <!-- Blog 1 -->
+                    <a href='#emptyLink' class='blog__blog'>
+                        <span class='blog__blogImg'></span>
+                        <p class='blog__blogDate'>January 17,2021</p>
+                        <h3 class='blog__blogTitle'>Some Awesome Blog Title Here</h3>
+                    </a>
+                    
+                    <!-- Blog 2 -->
+                    <a href='#emptyLink' class='blog__blog'>
+                        <span class='blog__blogImg'></span>
+                        <p class='blog__blogDate'>January 17,2021</p>
+                        <h3 class='blog__blogTitle'>Some Awesome Blog Title Here</h3>
+                    </a>
+                    
+                    <!-- Blog 3 -->
+                    <a href='#emptyLink' class='blog__blog'>
+                        <span class='blog__blogImg'></span>
+                        <p class='blog__blogDate'>January 17,2021</p>
+                        <h3 class='blog__blogTitle'>Some Awesome Blog Title Here</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Blog Section - Ending -->
+
+        <!-- Newsletter Section - Beginning -->
+        <div class='newsletter'>
+            <div class='newsletter__container container'>
+                <form class='newsletter__form'>
+                    <label for='email' class='newsletter__label'>Subscribe to our Newsletter:</label>
+                    <div class='newsletter__emailInputBox'>
+                        <input type='email' name='email' id='email' placeholder='Enter email Address' class='newsletter__emailInput'>
+                        <span class='newsletter__emailInputBottomLine'></span>
+                    </div>
+                    <input type='submit' value='Subscribe' class='newsletter__submitButton'>
+                </form>
+            </div>
+        </div>
+        <!-- Newsletter Section - Ending -->
+
+        <!-- Footer Section - Beginning -->
+        <div class='footer'>
+            <div class='footer__container container'>
+                <!-- Column 1 -->
+                <div class='footer__column1'>
+                    <a href='#body' class='footer__logo'>
+                        <img src='./Images/logo.svg' alt='Website Logo' class='footer__logoImg'>
+                    </a>
+                    <p class='footer__desc'>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                    <p class='footer__copyright'>
+                        PSD Template created by <a href='https://www.graphberry.com' target='_blank' class='footer__graphberryLink'>Graphberry</a>, Belgrade, Serbia.
+                        <br>
+                        Website developed by <a href='https://github.com/mohammad-jarabah' target='_blank' class='footer__developerLink'>@Mohammad Jarab'ah</a>.
+                        <br>
+                        © 2021 - <span class='footer__agencySpan'>Bondi.Inc</span>.
+                    </p>
+                </div>
+
+                <!-- Column 2 -->
+                <div class='footer__column2'>
+                    <p class='footer__columnTitle'>Links</p>
+                    <a href='#body' class='footer__link'>Home</a>
+                    <a href='#servicesSection' class='footer__link'>Our Services</a>
+                    <a href='#portfolioSection' class='footer__link'>Portfolio</a>
+                    <a href='#emptyLink' class='footer__link'>Testimonials</a>
+                    <a href='#emptyLink' class='footer__link'>Support</a>
+                    <a href='#emptyLink' class='footer__link'>Terms and Conditions</a>
+                </div>
+
+                <!-- Column 3 -->
+                <div class='footer__column3'>
+                    <p class='footer__columnTitle'>About Us</p>
+                    <a href='#emptyLink' class='footer__link'>Sign In</a>
+                    <a href='#emptyLink' class='footer__link'>Register</a>
+                    <a href='#aboutSection' class='footer__link'>About Us</a>
+                    <a href='#blogSection' class='footer__link'>Blog</a>
+                    <a href='#emptyLink' class='footer__link'>Contact Us</a>
+                </div>
+
+                <!-- Column 4 -->
+                <div class='footer__column4' id='contactSection'>
+                    <p class='footer__columnTitle'>Contact Us</p>
+                    <p class=footer__columnDesc>Get in touch with us via mail phone. We are waiting for your call or message:</p>
+                    <a href='#mailto:graphberry@gmail.com' class='footer__agencyEmail sepcialLink'>graphberry@gmail.com</a>
+                    <div class='footer__socialLinks'>
+                        <a href='#emptyLink' class='footer__socialLink' style='background-color: #1877f2;'><i class='fab fa-facebook-f footer__socialLinkIcon'></i></a>
+                        <a href='#emptyLink' class='footer__socialLink' style='background-color: #1da1f2;'><i class='fab fa-twitter footer__socialLinkIcon'></i></a>
+                        <a href='#emptyLink' class='footer__socialLink' style='background-color: #0a66c2;'><i class='fab fa-linkedin-in footer__socialLinkIcon'></i></a>
+                        <a href='#emptyLink' class='footer__socialLink' style='background-color: #111111;'><i class='fab fa-behance footer__socialLinkIcon'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Section - Ending -->
+    </body>
+</html>

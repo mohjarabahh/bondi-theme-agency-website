@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79 194" width="79" height="194">
+	<title>02 Services</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #eff7fa } 
+	</style>
+	<g id="02 Services">
+		<g id="Service 1">
+			<path id="Path" class="shp0" d="M78.16 194.01L43.18 194.01L43.18 56.55C32.81 60.32 18.45 62.2 0.1 62.2L0.1 32.76C28.91 32.76 45.37 21.91 49.48 0.22L78.16 0.22L78.16 194.01Z" />
+		</g>
+	</g>
+</svg>
