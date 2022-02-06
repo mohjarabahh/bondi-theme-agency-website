@@ -317,12 +317,40 @@ body {
 
 /* Header Section - Beginning */
 .header {
+    min-height: calc(100vh - 74px);
+    position: relative;
+    z-index: 0;
+
+    /* Background */
+    background-image: url(../Images/header-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header::before {
     background-color: var(--mainColor1);
+    width: 100%;
+    height: 100%;
+    opacity: 0.92;
+    
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.header__container {
+    height: calc(100vh - 74px);
+
+    /* Flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header__content {
-    padding: 120px 0;
-    
     /* Flex */
     display: flex;
     flex-direction: column;
