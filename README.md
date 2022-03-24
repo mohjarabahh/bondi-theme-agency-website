@@ -1,5 +1,5 @@
 # Bondi Theme Agency's Website
-This is a website for "Bondi Theme" Agency created with HTML and CSS.
+A website for Bondi Theme agency created with HTML and CSS!
 
 **Note:** This website is created for practicing on the front-end.
 
