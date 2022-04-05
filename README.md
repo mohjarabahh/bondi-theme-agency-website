@@ -1,4 +1,5 @@
-# Bondi Theme Agency's Website
+<h1 align='center'>Bondi Theme Agency's Website</h1>
+
 A website for Bondi Theme agency created with HTML and CSS!
 
 **Note:** This website is created for practicing on the front-end.
