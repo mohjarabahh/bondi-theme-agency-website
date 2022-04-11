@@ -15,12 +15,15 @@ A website for Bondi Theme agency created with HTML and CSS!
 * ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Features
+* ⭐ Single page design
 * 🤖 Responsive design on all devices
 * ⚡ Fast and lightweight design
 * 🍫 Responsive navigation bar with custom designs for desktops & mobiles
+* 🌱 Smooth scroll for navigation bar links
 * 🌐 Sections for 'header', 'services', 'portfolio', 'about us', 'team members', 'clients', 'advertise', 'blog', 'newsletter', and 'footer'
 * 👓 Simple animation when hovering on the images of the 'portfolio' section
 * 🌍 Footer section with 4 columns of content, links, and copyrights
+* 🎨 SVG logo & icons (except the 'clients' section)
 * ✨ And more!
 
 ## Credits
