@@ -412,10 +412,6 @@ body {
     align-items: center;
 }
 
-.services__serve:first-of-type .services__serveIcon {
-    margin-left: 17px;
-}
-
 .services__serve:nth-of-type(2) .services__serveIcon {
     margin-bottom: -4.4px;
 }
@@ -430,6 +426,10 @@ body {
     height: 185px;
 }
 
+.services__serve:first-of-type .services__serveNumber {
+    margin-left: -50%;
+}
+
 .services__serveIcon {
     width: 50px;
     height: 55px;
@@ -439,6 +439,10 @@ body {
     left: 50%;
     bottom: 0;
     transform: translateX(-50%);
+}
+
+.services__serve:last-of-type .services__serveIcon {
+    bottom: -1px;
 }
 
 .services__serveTitle {
@@ -733,8 +737,9 @@ body {
 .team__memberName {
     color: var(--mainColor2);
     width: 100%;
+    height: 43px;
     padding: 10px 0;
-    margin-top: -40px;
+    margin-top: -43px;
     font-size: 18px;
     position: relative;
     z-index: 1;
@@ -753,6 +758,8 @@ body {
 
     content: '';
     position: absolute;
+    left: 0;
+    bottom: 0px;
     z-index: -1;
 }
 
@@ -860,6 +867,7 @@ body {
 .blog__blog {
     display: block;
     text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 }
 
 .blog__blogImg {
@@ -879,6 +887,10 @@ body {
 
 .blog__blog:nth-of-type(3) .blog__blogImg {
     background-image: url(../Images/blog-image3.jpg);
+}
+
+.blog__blogInfo {
+    padding: 10px 10px 25px;
 }
 
 .blog__blogDate {
