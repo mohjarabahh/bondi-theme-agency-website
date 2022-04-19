@@ -32,6 +32,8 @@
     --mainLineHeight: 1.6;
     --sectionPadding: 120px;
     --transitionDuration: 0.3s;
+
+    --headerHeight: 74px;
 }
 
 /* Global Rules - Beginning */
@@ -48,6 +50,10 @@ html {
 body {
     background-color: var(--mainColor2);
     font-family: 'Roboto', sans-serif;
+}
+
+.section {
+    scroll-margin-top: var(--headerHeight);
 }
 
 .container {
