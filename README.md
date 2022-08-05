@@ -12,7 +12,7 @@ A website for Bondi Theme agency created with HTML and CSS!
 
 ## Technologies Used
 * <img src='./Images/readme-badges/html.svg' alt='HTML' valign='middle'>
-* <img src='./Images/readme-badges/css.svg' alt='CSS' valign='middle'>
+* <img src='./Images/readme-badges/css.svg' alt='CSS' valign='middle'> — CSS code was written following to BEM methodology
 
 ## Features
 * ⭐ Single page design
