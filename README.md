@@ -25,6 +25,7 @@ A website for Bondi Theme agency created with HTML and CSS!
 * 🌠 Simple animation when hovering on the images of the 'portfolio' section
 * 🌍 Footer section with 4 columns of content, links, and copyrights
 * 🎨 SVG logo & icons (except the 'clients' section)
+* 🌠 Optimized images
 * ✨ And more!
 
 ## Credits
