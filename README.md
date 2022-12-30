@@ -7,7 +7,7 @@ A website for Bondi Theme agency created with HTML and CSS!
 ## Design View
 ![design-view](./Images/design-view.png)
 
-## Live Demo
+## Live Preview
 👁 [Click here](https://mohammadjarabah.github.io/bondi-theme-agency-website) to check out the live demo!
 
 ## Technologies Used
