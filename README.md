@@ -1,6 +1,6 @@
 <h1 align='center'>Bondi Theme Agency Website</h1>
 
-This project is a landing page for a digital agency by turned a PSD web template into a responsive website using HTML and CSS. It showcases the agency's portfolio, services, and expertise with a clean design and easy navigation for users on all devices.
+A creative, colorful, and responsive landing page for small agency, built by converting a PSD web template made by [Graphberry](https://www.graphberry.com/item/bondi-psd-landing-page) into a usable and responsive website using HTML and CSS with a clean code. It comes in a modern and minimalist style with flat colors looks great and professional in any web browser.
 
 ## Preview
 ![design-view](./Images/preview.png)
