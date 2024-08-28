@@ -11,6 +11,9 @@ A creative, colorful, and responsive landing page for small agency, built by con
 ## Technologies
 * HTML
 * CSS (with BEM Methodology)
+* [Google Fonts](https://fonts.google.com)
+* [Font Awesome](https://fontawesome.com)
+* [GitHub Pages](https://pages.github.com)
 
 ## Features
 * ⭐ Single page design
@@ -27,8 +30,6 @@ A creative, colorful, and responsive landing page for small agency, built by con
 
 ## Credits
 * PSD Template is from [Graphberry](https://www.graphberry.com)
-* Fonts are from [Google Fonts](https://fonts.google.com)
-* Font Icons are from [Font Awesome](https://fontawesome.com)
 * Images are from [Unsplash](https://unsplash.com)
 
 ## License
