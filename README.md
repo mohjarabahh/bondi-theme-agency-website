@@ -6,7 +6,7 @@ A creative, colorful, and responsive landing page for small agency, built by con
 ![design-view](./Images/preview.png)
 
 ## Live Demo
-👁 [Click here](https://mohammadjarabah681.github.io/bondi-theme-agency-website) to check out the live demo!
+👁 [Click here](https://mohjarabahh.github.io/bondi-theme-agency-website) to check out the live demo!
 
 ## Technologies
 * HTML
